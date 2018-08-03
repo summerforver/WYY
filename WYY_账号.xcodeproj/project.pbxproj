@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B9E24062109B8C000C9E1F8 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E23FE2109B8BE00C9E1F8 /* 7.jpg */; };
+		1B9E24072109B8C000C9E1F8 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E23FF2109B8BE00C9E1F8 /* 6.jpg */; };
+		1B9E24082109B8C000C9E1F8 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E24002109B8BF00C9E1F8 /* 3.jpg */; };
+		1B9E24092109B8C000C9E1F8 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E24012109B8BF00C9E1F8 /* 5.jpg */; };
+		1B9E240A2109B8C000C9E1F8 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E24022109B8BF00C9E1F8 /* 8.jpg */; };
+		1B9E240B2109B8C000C9E1F8 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E24032109B8BF00C9E1F8 /* 4.jpg */; };
+		1B9E240C2109B8C000C9E1F8 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E24042109B8BF00C9E1F8 /* 2.jpg */; };
+		1B9E240D2109B8C000C9E1F8 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E24052109B8BF00C9E1F8 /* 1.jpg */; };
+		1BA08AF32106BDBA0003AA5F /* WYYRootMy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA08AF22106BDBA0003AA5F /* WYYRootMy.m */; };
+		1BA08AF72106D4E20003AA5F /* 云.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BA08AF62106D4E20003AA5F /* 云.png */; };
+		1BA08AF92106D4ED0003AA5F /* 音乐.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BA08AF82106D4ED0003AA5F /* 音乐.png */; };
+		1BA08AFE210705080003AA5F /* 最近播放.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BA08AFA210705070003AA5F /* 最近播放.png */; };
+		1BA08AFF210705080003AA5F /* 本地音乐.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BA08AFB210705070003AA5F /* 本地音乐.png */; };
+		1BA08B00210705080003AA5F /* 我的电台.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BA08AFC210705070003AA5F /* 我的电台.png */; };
+		1BA08B01210705080003AA5F /* 我的收藏.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BA08AFD210705080003AA5F /* 我的收藏.png */; };
+		1BB33A4921074D4800DCDF90 /* summerforver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BB33A4821074D4800DCDF90 /* summerforver.jpg */; };
+		1BC2CC102108066100D0AF82 /* Kelly ClarkSon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2CC0C2108066000D0AF82 /* Kelly ClarkSon.jpg */; };
+		1BC2CC112108066100D0AF82 /* 我喜欢的音乐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2CC0D2108066000D0AF82 /* 我喜欢的音乐.jpg */; };
+		1BC2CC122108066100D0AF82 /* Adele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2CC0E2108066000D0AF82 /* Adele.jpg */; };
+		1BC2CC132108066100D0AF82 /* Alan Walker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2CC0F2108066000D0AF82 /* Alan Walker.jpg */; };
+		1BC2CC172108152700D0AF82 /* 金币.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2CC162108152700D0AF82 /* 金币.png */; };
+		1BC2CC1A2108214200D0AF82 /* myMusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2CC192108214200D0AF82 /* myMusicTableViewCell.m */; };
+		1BC9C9F121055C630056AACB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC9C9F021055C630056AACB /* AppDelegate.m */; };
+		1BC9C9F421055C630056AACB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC9C9F321055C630056AACB /* ViewController.m */; };
+		1BC9C9F721055C640056AACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9C9F521055C640056AACB /* Main.storyboard */; };
+		1BC9C9F921055C910056AACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9C9F821055C910056AACB /* Assets.xcassets */; };
+		1BC9C9FC21055C910056AACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9C9FA21055C910056AACB /* LaunchScreen.storyboard */; };
+		1BC9C9FF21055C910056AACB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC9C9FE21055C910056AACB /* main.m */; };
+		1BC9CA0A21055E4F0056AACB /* WYYRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC9CA0921055E4F0056AACB /* WYYRoot.m */; };
+		1BC9CADB210602970056AACB /* 个性皮肤.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CAC6210602970056AACB /* 个性皮肤.png */; };
+		1BC9CADC210602970056AACB /* 优惠劵.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CAC7210602970056AACB /* 优惠劵.png */; };
+		1BC9CADD210602970056AACB /* 会员中心.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CAC8210602970056AACB /* 会员中心.png */; };
+		1BC9CADE210602970056AACB /* 关于.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CAC9210602970056AACB /* 关于.png */; };
+		1BC9CADF210602970056AACB /* 分享网易云音乐.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CACA210602970056AACB /* 分享网易云音乐.png */; };
+		1BC9CAE0210602970056AACB /* 发现.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CACB210602970056AACB /* 发现.png */; };
+		1BC9CAE1210602970056AACB /* 商城.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CACC210602970056AACB /* 商城.png */; };
+		1BC9CAE2210602970056AACB /* 在线听歌免流量.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CACD210602970056AACB /* 在线听歌免流量.png */; };
+		1BC9CAE3210602970056AACB /* 夜间模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CACE210602970056AACB /* 夜间模式.png */; };
+		1BC9CAE4210602970056AACB /* 定时关闭.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CACF210602970056AACB /* 定时关闭.png */; };
+		1BC9CAE5210602970056AACB /* 我的.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CAD0210602970056AACB /* 我的.png */; };
+		1BC9CAE6210602970056AACB /* 我的消息.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CAD1210602970056AACB /* 我的消息.png */; };
+		1BC9CAE7210602970056AACB /* 扫一扫.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CAD2210602970056AACB /* 扫一扫.png */; };
+		1BC9CAE8210602970056AACB /* 朋友.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CAD3210602970056AACB /* 朋友.png */; };
+		1BC9CAE9210602970056AACB /* 游戏推荐Beta.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CAD4210602970056AACB /* 游戏推荐Beta.png */; };
+		1BC9CAEA210602970056AACB /* 视频.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CAD5210602970056AACB /* 视频.png */; };
+		1BC9CAEB210602970056AACB /* 设置.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CAD6210602970056AACB /* 设置.png */; };
+		1BC9CAEC210602970056AACB /* 账户.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CAD7210602970056AACB /* 账户.png */; };
+		1BC9CAEE210602970056AACB /* 音乐闹钟.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CAD9210602970056AACB /* 音乐闹钟.png */; };
+		1BC9CAEF210602970056AACB /* 驾驭模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9CADA210602970056AACB /* 驾驭模式.png */; };
+		1BDF21A2210967030001C573 /* WYYSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF21A1210967030001C573 /* WYYSearchViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B9E23FE2109B8BE00C9E1F8 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		1B9E23FF2109B8BE00C9E1F8 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		1B9E24002109B8BF00C9E1F8 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		1B9E24012109B8BF00C9E1F8 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		1B9E24022109B8BF00C9E1F8 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		1B9E24032109B8BF00C9E1F8 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		1B9E24042109B8BF00C9E1F8 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		1B9E24052109B8BF00C9E1F8 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		1BA08AF12106BDBA0003AA5F /* WYYRootMy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYYRootMy.h; sourceTree = "<group>"; };
+		1BA08AF22106BDBA0003AA5F /* WYYRootMy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYYRootMy.m; sourceTree = "<group>"; };
+		1BA08AF62106D4E20003AA5F /* 云.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云.png"; sourceTree = "<group>"; };
+		1BA08AF82106D4ED0003AA5F /* 音乐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音乐.png"; sourceTree = "<group>"; };
+		1BA08AFA210705070003AA5F /* 最近播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "最近播放.png"; sourceTree = "<group>"; };
+		1BA08AFB210705070003AA5F /* 本地音乐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "本地音乐.png"; sourceTree = "<group>"; };
+		1BA08AFC210705070003AA5F /* 我的电台.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的电台.png"; sourceTree = "<group>"; };
+		1BA08AFD210705080003AA5F /* 我的收藏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的收藏.png"; sourceTree = "<group>"; };
+		1BB33A4821074D4800DCDF90 /* summerforver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = summerforver.jpg; sourceTree = "<group>"; };
+		1BC2CC0C2108066000D0AF82 /* Kelly ClarkSon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kelly ClarkSon.jpg"; sourceTree = "<group>"; };
+		1BC2CC0D2108066000D0AF82 /* 我喜欢的音乐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我喜欢的音乐.jpg"; sourceTree = "<group>"; };
+		1BC2CC0E2108066000D0AF82 /* Adele.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Adele.jpg; sourceTree = "<group>"; };
+		1BC2CC0F2108066000D0AF82 /* Alan Walker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alan Walker.jpg"; sourceTree = "<group>"; };
+		1BC2CC162108152700D0AF82 /* 金币.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金币.png"; sourceTree = "<group>"; };
+		1BC2CC182108214200D0AF82 /* myMusicTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myMusicTableViewCell.h; sourceTree = "<group>"; };
+		1BC2CC192108214200D0AF82 /* myMusicTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myMusicTableViewCell.m; sourceTree = "<group>"; };
+		1BC9C9EC21055C620056AACB /* WYY_账号.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WYY_账号.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC9C9EF21055C630056AACB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BC9C9F021055C630056AACB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BC9C9F221055C630056AACB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BC9C9F321055C630056AACB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BC9C9F621055C640056AACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BC9C9F821055C910056AACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BC9C9FB21055C910056AACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BC9C9FD21055C910056AACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BC9C9FE21055C910056AACB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BC9CA0821055E4F0056AACB /* WYYRoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYYRoot.h; sourceTree = "<group>"; };
+		1BC9CA0921055E4F0056AACB /* WYYRoot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYYRoot.m; sourceTree = "<group>"; };
+		1BC9CAC6210602970056AACB /* 个性皮肤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个性皮肤.png"; sourceTree = "<group>"; };
+		1BC9CAC7210602970056AACB /* 优惠劵.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "优惠劵.png"; sourceTree = "<group>"; };
+		1BC9CAC8210602970056AACB /* 会员中心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "会员中心.png"; sourceTree = "<group>"; };
+		1BC9CAC9210602970056AACB /* 关于.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于.png"; sourceTree = "<group>"; };
+		1BC9CACA210602970056AACB /* 分享网易云音乐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享网易云音乐.png"; sourceTree = "<group>"; };
+		1BC9CACB210602970056AACB /* 发现.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发现.png"; sourceTree = "<group>"; };
+		1BC9CACC210602970056AACB /* 商城.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "商城.png"; sourceTree = "<group>"; };
+		1BC9CACD210602970056AACB /* 在线听歌免流量.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "在线听歌免流量.png"; sourceTree = "<group>"; };
+		1BC9CACE210602970056AACB /* 夜间模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "夜间模式.png"; sourceTree = "<group>"; };
+		1BC9CACF210602970056AACB /* 定时关闭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时关闭.png"; sourceTree = "<group>"; };
+		1BC9CAD0210602970056AACB /* 我的.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的.png"; sourceTree = "<group>"; };
+		1BC9CAD1210602970056AACB /* 我的消息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的消息.png"; sourceTree = "<group>"; };
+		1BC9CAD2210602970056AACB /* 扫一扫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫一扫.png"; sourceTree = "<group>"; };
+		1BC9CAD3210602970056AACB /* 朋友.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "朋友.png"; sourceTree = "<group>"; };
+		1BC9CAD4210602970056AACB /* 游戏推荐Beta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "游戏推荐Beta.png"; sourceTree = "<group>"; };
+		1BC9CAD5210602970056AACB /* 视频.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "视频.png"; sourceTree = "<group>"; };
+		1BC9CAD6210602970056AACB /* 设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置.png"; sourceTree = "<group>"; };
+		1BC9CAD7210602970056AACB /* 账户.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "账户.png"; sourceTree = "<group>"; };
+		1BC9CAD9210602970056AACB /* 音乐闹钟.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音乐闹钟.png"; sourceTree = "<group>"; };
+		1BC9CADA210602970056AACB /* 驾驭模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "驾驭模式.png"; sourceTree = "<group>"; };
+		1BDF21A0210967030001C573 /* WYYSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYYSearchViewController.h; sourceTree = "<group>"; };
+		1BDF21A1210967030001C573 /* WYYSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYYSearchViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BC9C9E921055C620056AACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BC9C9E321055C610056AACB = {
+			isa = PBXGroup;
+			children = (
+				1BC9CAC5210602970056AACB /* WYY_图片 */,
+				1BC9C9EE21055C620056AACB /* WYY_账号 */,
+			);
+			sourceTree = "<group>";
+		};
+		1BC9C9ED21055C620056AACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BC9C9EC21055C620056AACB /* WYY_账号.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1BC9C9EE21055C620056AACB /* WYY_账号 */ = {
+			isa = PBXGroup;
+			children = (
+				1BC9C9EF21055C630056AACB /* AppDelegate.h */,
+				1BC9C9F021055C630056AACB /* AppDelegate.m */,
+				1BC9C9F221055C630056AACB /* ViewController.h */,
+				1BC9C9F321055C630056AACB /* ViewController.m */,
+				1BC9C9F521055C640056AACB /* Main.storyboard */,
+				1BC9C9F821055C910056AACB /* Assets.xcassets */,
+				1BC9C9FA21055C910056AACB /* LaunchScreen.storyboard */,
+				1BC9C9FD21055C910056AACB /* Info.plist */,
+				1BC9C9FE21055C910056AACB /* main.m */,
+				1BC9CA0821055E4F0056AACB /* WYYRoot.h */,
+				1BC9CA0921055E4F0056AACB /* WYYRoot.m */,
+				1BA08AF12106BDBA0003AA5F /* WYYRootMy.h */,
+				1BA08AF22106BDBA0003AA5F /* WYYRootMy.m */,
+				1BDF21A0210967030001C573 /* WYYSearchViewController.h */,
+				1BDF21A1210967030001C573 /* WYYSearchViewController.m */,
+				1BC2CC182108214200D0AF82 /* myMusicTableViewCell.h */,
+				1BC2CC192108214200D0AF82 /* myMusicTableViewCell.m */,
+				1BC9C9ED21055C620056AACB /* Products */,
+			);
+			path = "WYY_账号";
+			sourceTree = "<group>";
+		};
+		1BC9CAC5210602970056AACB /* WYY_图片 */ = {
+			isa = PBXGroup;
+			children = (
+				1BC9CAC6210602970056AACB /* 个性皮肤.png */,
+				1BC9CAC7210602970056AACB /* 优惠劵.png */,
+				1BC9CAC8210602970056AACB /* 会员中心.png */,
+				1BC9CAC9210602970056AACB /* 关于.png */,
+				1BC9CACA210602970056AACB /* 分享网易云音乐.png */,
+				1BC9CACB210602970056AACB /* 发现.png */,
+				1BC9CACC210602970056AACB /* 商城.png */,
+				1BC9CACD210602970056AACB /* 在线听歌免流量.png */,
+				1BC9CACE210602970056AACB /* 夜间模式.png */,
+				1BC9CACF210602970056AACB /* 定时关闭.png */,
+				1BC9CAD0210602970056AACB /* 我的.png */,
+				1BC9CAD1210602970056AACB /* 我的消息.png */,
+				1BC9CAD2210602970056AACB /* 扫一扫.png */,
+				1BC9CAD3210602970056AACB /* 朋友.png */,
+				1BC9CAD4210602970056AACB /* 游戏推荐Beta.png */,
+				1BC9CAD5210602970056AACB /* 视频.png */,
+				1BA08AF82106D4ED0003AA5F /* 音乐.png */,
+				1BA08AF62106D4E20003AA5F /* 云.png */,
+				1BC9CAD6210602970056AACB /* 设置.png */,
+				1BC9CAD7210602970056AACB /* 账户.png */,
+				1BC9CAD9210602970056AACB /* 音乐闹钟.png */,
+				1BC9CADA210602970056AACB /* 驾驭模式.png */,
+				1BA08AFB210705070003AA5F /* 本地音乐.png */,
+				1BA08AFC210705070003AA5F /* 我的电台.png */,
+				1BA08AFD210705080003AA5F /* 我的收藏.png */,
+				1BA08AFA210705070003AA5F /* 最近播放.png */,
+				1BB33A4821074D4800DCDF90 /* summerforver.jpg */,
+				1BC2CC0D2108066000D0AF82 /* 我喜欢的音乐.jpg */,
+				1BC2CC0E2108066000D0AF82 /* Adele.jpg */,
+				1BC2CC0F2108066000D0AF82 /* Alan Walker.jpg */,
+				1BC2CC0C2108066000D0AF82 /* Kelly ClarkSon.jpg */,
+				1BC2CC162108152700D0AF82 /* 金币.png */,
+				1B9E24052109B8BF00C9E1F8 /* 1.jpg */,
+				1B9E24042109B8BF00C9E1F8 /* 2.jpg */,
+				1B9E24002109B8BF00C9E1F8 /* 3.jpg */,
+				1B9E24032109B8BF00C9E1F8 /* 4.jpg */,
+				1B9E24012109B8BF00C9E1F8 /* 5.jpg */,
+				1B9E23FF2109B8BE00C9E1F8 /* 6.jpg */,
+				1B9E23FE2109B8BE00C9E1F8 /* 7.jpg */,
+				1B9E24022109B8BF00C9E1F8 /* 8.jpg */,
+			);
+			path = "WYY_图片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BC9C9EB21055C620056AACB /* WYY_账号 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC9CA0221055C920056AACB /* Build configuration list for PBXNativeTarget "WYY_账号" */;
+			buildPhases = (
+				1BC9C9E821055C620056AACB /* Sources */,
+				1BC9C9E921055C620056AACB /* Frameworks */,
+				1BC9C9EA21055C620056AACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WYY_账号";
+			productName = "WYY_账号";
+			productReference = 1BC9C9EC21055C620056AACB /* WYY_账号.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BC9C9E421055C610056AACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "王一卓";
+				TargetAttributes = {
+					1BC9C9EB21055C620056AACB = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1BC9C9E721055C610056AACB /* Build configuration list for PBXProject "WYY_账号" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BC9C9E321055C610056AACB;
+			productRefGroup = 1BC9C9ED21055C620056AACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BC9C9EB21055C620056AACB /* WYY_账号 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BC9C9EA21055C620056AACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC9CAE7210602970056AACB /* 扫一扫.png in Resources */,
+				1BC9C9FC21055C910056AACB /* LaunchScreen.storyboard in Resources */,
+				1BC9CADC210602970056AACB /* 优惠劵.png in Resources */,
+				1BC9CAE0210602970056AACB /* 发现.png in Resources */,
+				1BA08AFF210705080003AA5F /* 本地音乐.png in Resources */,
+				1BC9C9F921055C910056AACB /* Assets.xcassets in Resources */,
+				1BC9CAEB210602970056AACB /* 设置.png in Resources */,
+				1BC9CAEF210602970056AACB /* 驾驭模式.png in Resources */,
+				1BA08AFE210705080003AA5F /* 最近播放.png in Resources */,
+				1BC9CAE2210602970056AACB /* 在线听歌免流量.png in Resources */,
+				1BC2CC172108152700D0AF82 /* 金币.png in Resources */,
+				1BC9CAEC210602970056AACB /* 账户.png in Resources */,
+				1BA08B01210705080003AA5F /* 我的收藏.png in Resources */,
+				1B9E240D2109B8C000C9E1F8 /* 1.jpg in Resources */,
+				1B9E24072109B8C000C9E1F8 /* 6.jpg in Resources */,
+				1BA08AF72106D4E20003AA5F /* 云.png in Resources */,
+				1BC9CADD210602970056AACB /* 会员中心.png in Resources */,
+				1B9E24062109B8C000C9E1F8 /* 7.jpg in Resources */,
+				1B9E24082109B8C000C9E1F8 /* 3.jpg in Resources */,
+				1BC9CAEE210602970056AACB /* 音乐闹钟.png in Resources */,
+				1BC2CC112108066100D0AF82 /* 我喜欢的音乐.jpg in Resources */,
+				1B9E240A2109B8C000C9E1F8 /* 8.jpg in Resources */,
+				1BC9CAE5210602970056AACB /* 我的.png in Resources */,
+				1BC9CAE4210602970056AACB /* 定时关闭.png in Resources */,
+				1BC2CC122108066100D0AF82 /* Adele.jpg in Resources */,
+				1BC9CAE1210602970056AACB /* 商城.png in Resources */,
+				1BC9CAE8210602970056AACB /* 朋友.png in Resources */,
+				1BC9CAE3210602970056AACB /* 夜间模式.png in Resources */,
+				1BC2CC132108066100D0AF82 /* Alan Walker.jpg in Resources */,
+				1BC9CAE6210602970056AACB /* 我的消息.png in Resources */,
+				1BC9CADE210602970056AACB /* 关于.png in Resources */,
+				1B9E240C2109B8C000C9E1F8 /* 2.jpg in Resources */,
+				1BC9CAE9210602970056AACB /* 游戏推荐Beta.png in Resources */,
+				1BA08AF92106D4ED0003AA5F /* 音乐.png in Resources */,
+				1BC9CADB210602970056AACB /* 个性皮肤.png in Resources */,
+				1BC9CAEA210602970056AACB /* 视频.png in Resources */,
+				1B9E24092109B8C000C9E1F8 /* 5.jpg in Resources */,
+				1BB33A4921074D4800DCDF90 /* summerforver.jpg in Resources */,
+				1BA08B00210705080003AA5F /* 我的电台.png in Resources */,
+				1B9E240B2109B8C000C9E1F8 /* 4.jpg in Resources */,
+				1BC9C9F721055C640056AACB /* Main.storyboard in Resources */,
+				1BC9CADF210602970056AACB /* 分享网易云音乐.png in Resources */,
+				1BC2CC102108066100D0AF82 /* Kelly ClarkSon.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BC9C9E821055C620056AACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC9C9F421055C630056AACB /* ViewController.m in Sources */,
+				1BC9CA0A21055E4F0056AACB /* WYYRoot.m in Sources */,
+				1BC9C9FF21055C910056AACB /* main.m in Sources */,
+				1BC9C9F121055C630056AACB /* AppDelegate.m in Sources */,
+				1BDF21A2210967030001C573 /* WYYSearchViewController.m in Sources */,
+				1BA08AF32106BDBA0003AA5F /* WYYRootMy.m in Sources */,
+				1BC2CC1A2108214200D0AF82 /* myMusicTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BC9C9F521055C640056AACB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC9C9F621055C640056AACB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BC9C9FA21055C910056AACB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC9C9FB21055C910056AACB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BC9CA0021055C910056AACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BC9CA0121055C910056AACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BC9CA0321055C920056AACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WYY_账号/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.WYY---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BC9CA0421055C920056AACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WYY_账号/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.WYY---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BC9C9E721055C610056AACB /* Build configuration list for PBXProject "WYY_账号" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC9CA0021055C910056AACB /* Debug */,
+				1BC9CA0121055C910056AACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC9CA0221055C920056AACB /* Build configuration list for PBXNativeTarget "WYY_账号" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC9CA0321055C920056AACB /* Debug */,
+				1BC9CA0421055C920056AACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BC9C9E421055C610056AACB /* Project object */;
+}
