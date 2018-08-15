@@ -12,8 +12,9 @@
 #import "FootTableViewCell.h"
 #import "SearchViewController.h"
 #import "WeatherView.h"
+#import "FindViewController.h"
 
-@interface ViewController ()<UIScrollViewDelegate>
+@interface ViewController ()<UIScrollViewDelegate, twViewControllerDelegate>
 
 @end
 
@@ -22,15 +23,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-//    UIImageView *backgroundView = [[UIImageView alloc] initWithFrame:self.view.bounds];
-//    backgroundView.image = [UIImage imageNamed:@"28.JPG"];
-//    [self.view addSubview:backgroundView];
-    
-    _cityMutableArray = [NSMutableArray arrayWithObjects:@"西安", @"北京", @"上海", nil];
+
+    _cityMutableArray = [[NSMutableArray alloc] init];
+    [_cityMutableArray addObject:@"西安"];
+    [_cityMutableArray addObject:@"北京"];
+//    [_cityMutableArray addObject:@"上海"];
+
     
     _scrollView = [[UIScrollView alloc] init];
+
     _scrollView.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 40);
+    
     _scrollView.backgroundColor = [UIColor colorWithRed:0.00f green:0.60f blue:0.80f alpha:1.00f];
+    
     _scrollView.directionalLockEnabled = NO;
     _scrollView.indicatorStyle = UIScrollViewIndicatorStyleDefault;
     _scrollView.pagingEnabled = YES;
@@ -43,9 +48,6 @@
     _scrollView.bounces = YES;
     _scrollView.delegate = self;
     
-    
-    
-//    [self.scrollView addSubview:backgroundView];
     
     UIView *footView = [[UIView alloc] initWithFrame:CGRectMake(0, 625, [UIScreen mainScreen].bounds.size.width, 45)];
     footView.backgroundColor = [UIColor colorWithRed:0.00f green:0.60f blue:0.80f alpha:1.00f];
@@ -64,29 +66,15 @@
     [_pageControl addTarget:self action:@selector(clickAction:) forControlEvents:UIControlEventValueChanged];
     
     [footView addSubview:_pageControl];
-    
-    
-    
-    
+
     for (int i = 0; i < _cityMutableArray.count; i++) {
         
-        
-        
         WeatherView *weather = [[WeatherView alloc] initWithFrame:CGRectMake(375*i, 0, [UIScreen mainScreen].bounds.size.width , _scrollView.frame.size.height) addCityName:_cityMutableArray[i]];
-        
-//         weather.cityName = _cityMutableArray[i];
-        
-        NSLog(@"%@", _cityMutableArray[i]);
-        NSLog(@"qweqwe%ld-------", _cityMutableArray.count);
-        
-//        NSLog(@"%@", weather.cityName);
-        
+
         [self.scrollView addSubview:weather];
         
     }
     [self.view addSubview:_scrollView];
-
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(city:) name:@"city" object:nil];
     
 }
 
@@ -104,33 +92,44 @@
     
 }
 
-- (void)city:(NSNotification *)text {
-    NSLog(@"-----%@",text.userInfo[@"city"]);
-//    NSString *string = [NSString stringWithFormat:@"https://free-api.heweather.com/s6/weather?location=%@&key=6f50849b09364be0a651d52ee9473f54",text.userInfo[@"city"]];
-    
-   
-    
-    
-    if (_cityMutableArray != nil && ![_cityMutableArray isKindOfClass:[NSNull class]] && _cityMutableArray.count != 0) {
-        
-        [_cityMutableArray addObject:text.userInfo[@"city"]];
-        NSLog(@"-=-=-=-=-%@-=-=-=-=-", _cityMutableArray);
-    }
-    
-    
-    
-    
-}
-
-
-
-
 - (void)clickButton:(UIButton *)sender {
     SearchViewController *viewControl = [[SearchViewController alloc] init];
+    
+    viewControl.delegate = self;
+    
+//    [self.navigationController pushViewController:viewControl animated:YES];
     [self presentViewController:viewControl animated:YES completion:nil];
     
 }
 
+- (void)changeWithString:(NSString *)string {
+    self.string = string;
+    int flag = 1;
+    for (int i = 0; i <_cityMutableArray.count; i ++) {
+        if ([self.string isEqualToString:_cityMutableArray[i]]) {
+            flag = 0;
+        }
+    }
+    
+    if (_cityMutableArray && flag == 1) {
+        
+            [_cityMutableArray addObject:self.string];
+            NSInteger count = self.cityMutableArray.count;
+        
+        
+            self.scrollView.contentSize = CGSizeMake(375*self.cityMutableArray.count, [UIScreen mainScreen].bounds.size.height - 40);
+        
+            WeatherView *weather = [[WeatherView alloc] initWithFrame:CGRectMake(375*(count-1), 0, [UIScreen mainScreen].bounds.size.width , self.scrollView.frame.size.height) addCityName:self.cityMutableArray[count-1]];
+            [self.scrollView addSubview:weather];
+        
+            [self.scrollView setContentOffset:CGPointMake(self.scrollView.frame.size.width*(count-1), 0) animated:NO];
+        
+            self.pageControl.numberOfPages = self.cityMutableArray.count;
+            int page = self.scrollView.contentOffset.x / [UIScreen mainScreen].bounds.size.width;
+            self.pageControl.currentPage = page;
+        
+    }
+}
 
 
 - (void)didReceiveMemoryWarning {

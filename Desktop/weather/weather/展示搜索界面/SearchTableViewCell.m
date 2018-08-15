@@ -30,7 +30,7 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    _firstLabel.frame = CGRectMake(15, 15, 40, 15);
+    _firstLabel.frame = CGRectMake(15, 15, 150, 15);
     _firstLabel.font = [UIFont systemFontOfSize:12.0];
     _firstLabel.textColor = [UIColor whiteColor];
     
@@ -39,8 +39,8 @@
     _secondLabel.font = [UIFont systemFontOfSize:26.0];
     _secondLabel.textColor = [UIColor whiteColor];
     
-    _thirdLabel.frame = CGRectMake(290, 10, 70, 60);
-    _thirdLabel.font = [UIFont systemFontOfSize:56.0];
+    _thirdLabel.frame = CGRectMake(270, 10, 90, 60);
+    _thirdLabel.font = [UIFont systemFontOfSize:50.0];
     _thirdLabel.textColor = [UIColor whiteColor];
     
     

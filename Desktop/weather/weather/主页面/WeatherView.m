@@ -19,7 +19,7 @@
 
 - (instancetype)initWithFrame:(CGRect)frame addCityName:(NSString *)cityname {
     if (self = [super initWithFrame:frame]) {
-        NSLog(@"------%@---", cityname);
+
         [self creatWeb:cityname];
         [self addTableView];
         
@@ -27,10 +27,9 @@
     return self;
 }
 
+
 - (void)creatWeb:(NSString *)cityname{
-//    NSString *string = @"https://free-api.heweather.com/s6/weather?location=西安&key=6f50849b09364be0a651d52ee9473f54";
-//
-    
+
     NSString *string = [NSString stringWithFormat:@"https://free-api.heweather.com/s6/weather?location=%@&key=6f50849b09364be0a651d52ee9473f54",cityname];
     
     NSString *urlString = [[NSString alloc] init];
@@ -143,9 +142,10 @@
         
         
         cell1.cityLabel.text = _weatherMutableArray[0][@"basic"][@"location"];
-        //        NSLog(@"%@", _weatherMutableArray[0][@"basic"][@"location"]);
         cell1.messageLabel.text = _weatherMutableArray[0][@"now"][@"cond_txt"];
-        cell1.temperatureLabel.text = _weatherMutableArray[0][@"now"][@"tmp"];
+        NSString *str = [NSString stringWithFormat:@"%@°",_weatherMutableArray[0][@"now"][@"tmp"]];
+        cell1.temperatureLabel.text = str;
+        
         cell1.dateLabel.text = _weatherMutableArray[0][@"daily_forecast"][0][@"date"];
         cell1.highTemperatureLabel.text = _weatherMutableArray[0][@"daily_forecast"][0][@"tmp_max"];
         cell1.lowTemperatureLabel.text = _weatherMutableArray[0][@"daily_forecast"][0][@"tmp_min"];
@@ -155,13 +155,16 @@
         cell1.selectionStyle = UITableViewCellSelectionStyleNone;
         return cell1;
     } else if (indexPath.section == 2){
-        //        NSArray *array = [NSArray arrayWithObjects:@"星期二", @"星期三", @"星期四", @"星期五", @"星期六", @"星期天", nil];
         NSArray *array = [[NSArray alloc] init];
         array = _weatherMutableArray[0][@"daily_forecast"];
+        
+        
         SevenWeatherTableViewCell *cell3 = [tableView dequeueReusableCellWithIdentifier:@"cell3" forIndexPath:indexPath];
         cell3.dateLabel.text = array[indexPath.row][@"date"];
         cell3.highTemperatureLabel.text = array[indexPath.row][@"tmp_max"];
         cell3.lowTemperatureLabel.text = array[indexPath.row][@"tmp_min"];
+        cell3.pictureImageView.image = [UIImage imageNamed:array[indexPath.row][@"cond_code_d"]];
+        
         cell3.backgroundColor = [UIColor clearColor];
         cell3.selectionStyle = UITableViewCellSelectionStyleNone;
         return cell3;
@@ -171,8 +174,7 @@
         NSArray *rightArray = [NSArray arrayWithObjects:@"日落", @"湿度", @"体感温度", @"气压", @"紫外线指数", nil];
         NSDictionary *dict = [[NSDictionary alloc] init];
         dict = _weatherMutableArray[0][@"daily_forecast"][0];
-        //            NSLog(@"dict = %@", dict);
-        
+
         NSArray *leftMessageArray = [NSArray arrayWithObjects:dict[@"sr"],dict[@"pop"], dict[@"wind_dir"], dict[@"pcpn"], dict[@"vis"], nil];
         
         NSArray *rightMessageArray = [NSArray arrayWithObjects:dict[@"ss"], dict[@"hum"], _weatherMutableArray[0][@"now"][@"fl"], dict[@"pres"], dict[@"uv_index"], nil];

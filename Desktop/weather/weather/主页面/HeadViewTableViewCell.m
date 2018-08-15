@@ -25,7 +25,7 @@
         [self.contentView addSubview:_messageLabel];
         
         
-        _temperatureLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 80, [UIScreen mainScreen].bounds.size.width, 70)];
+        _temperatureLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 70, [UIScreen mainScreen].bounds.size.width, 70)];
         [self.contentView addSubview:_temperatureLabel];
        
         _dateLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 180, 110, 20)];
@@ -53,21 +53,17 @@
     
     _cityLabel.textAlignment = NSTextAlignmentCenter;
     _cityLabel.textColor = [UIColor whiteColor];
-//    _cityLabel.text = @"西安市";
     _cityLabel.font = [UIFont systemFontOfSize:30.0];
     
     _messageLabel.textAlignment = NSTextAlignmentCenter;
     _messageLabel.textColor = [UIColor whiteColor];
-//    _messageLabel.text = @"局部多云";
     _messageLabel.font = [UIFont systemFontOfSize:16.0];
    
     _temperatureLabel.textColor = [UIColor whiteColor];
     _temperatureLabel.textAlignment = NSTextAlignmentCenter;
     _temperatureLabel.font = [UIFont systemFontOfSize:80.0];
-//    _temperatureLabel.text = @"35";
   
     _dateLabel.textColor = [UIColor whiteColor];
-//    _dateLabel.text = @"星期一";
     _dateLabel.font = [UIFont systemFontOfSize:20.0];
     
     _todayLabel.textColor = [UIColor whiteColor];
@@ -75,11 +71,9 @@
     _todayLabel.text = @"今天";
  
     _highTemperatureLabel.textColor = [UIColor whiteColor];
-//    _highTemperatureLabel.text = @"35";
     _highTemperatureLabel.font = [UIFont systemFontOfSize:20.0];
 
     _lowTemperatureLabel.textColor = [UIColor whiteColor];
-//    _lowTemperatureLabel.text = @"26";
     _lowTemperatureLabel.font = [UIFont systemFontOfSize:20.0];
    
     

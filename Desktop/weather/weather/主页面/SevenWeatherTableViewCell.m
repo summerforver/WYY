@@ -42,7 +42,7 @@
     _dateLabel.frame = CGRectMake(20, 10, 110, 20);
     [self setLabel:_dateLabel];
     
-    _pictureImageView.frame = CGRectMake(170, 10, 30, 20);
+    _pictureImageView.frame = CGRectMake(190, 5, 30, 30);
     
     _highTemperatureLabel.frame = CGRectMake(280, 10, 25, 20);
     [self setLabel:_highTemperatureLabel];

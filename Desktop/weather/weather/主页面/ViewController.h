@@ -14,6 +14,7 @@
 
 @property (nonatomic, strong)NSMutableArray *cityMutableArray;
 @property (nonatomic, copy)NSString *string;
+@property (nonatomic, strong)NSMutableArray *mutableArray;
 
 @end
 

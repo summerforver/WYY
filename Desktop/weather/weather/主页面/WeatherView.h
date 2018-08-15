@@ -15,5 +15,4 @@
 @property (nonatomic, copy)NSString *cityName;
 
 - (instancetype)initWithFrame:(CGRect)frame addCityName:(NSString *)cityname;
-
 @end
